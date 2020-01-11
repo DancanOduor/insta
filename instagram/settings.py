@@ -28,7 +28,7 @@ EMAIL_PORT = config('EMAIL_PORT')
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD=config('EMAIL_HOST_PASSWORD')
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'i+n&nn%&bpa_a*a!g0nj^5!af-uo(h@x3&q**!olm9ht*j3)t4'
+
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
